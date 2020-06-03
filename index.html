@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>Студия «Nёrds»</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="main-header">
@@ -16,7 +19,9 @@
         <li class="site-navigation-item"><a href="catalog.html">Магазин</a></li>
         <li class="site-navigation-item"><a href="#">Контакты</a></li>
       </ul>
-      <a class="user-basket" href="#">Корзина</a>
+      <div class="user-navigation">
+        <a class="user-basket" href="#">Корзина</a>
+      </div>
     </nav>
   </header>
   <main class="container">
@@ -26,20 +31,20 @@
         <h2 class="visually-hidden">Как мы работаем</h2>
         <p class="slider-title-first">Долго, дорого, скрупулезно.</p>
         <p class="slider-text-first">Математически выверенный дизан для вашего сайта и мобильного приложения</p>
-        <a class="button" href="#">Узнать больше</a>
+        <a class="button button-slider" href="#">Узнать больше</a>
       </div>
       <div class="slider-text">
         <p class="slider-title-next">Любим математику как никто другой</p>
         <p class="slider-text-next">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-        <a class="button" href="#">Узнать больше</a>
+        <a class="button button-slider" href="#">Узнать больше</a>
       </div>
       <div class="slider-text">
         <p class="slider-title-last">Только ночь, только хардкор</p>
         <p class="slider-text-last">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-        <a class="button" href="#">Узнать больше</a>
+        <a class="button button-slider" href="#">Узнать больше</a>
       </div>
       <div class="pagination">
-        <ul class="pagination-list">
+        <ul class="main-pagination-list">
           <li class="pagination-item active">
             <a href="">1</a>
           </li>
@@ -54,24 +59,24 @@
     </section>
     <section class="product-info">
       <h2 class="visually-hidden">Наши товары</h2>
-      <ul class="product-lict">
+      <ul class="product-list">
         <li class="product-item">
           <h3 class="product-title">Веб-сайты</h3>
           <img class="product-img" src="img/web-sites.svg" width="300" height="146" alt="Веб-сайты">
           <p class="product-text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-          <a class="button" href="#">Заказать</a>
+          <a class="button button-web-sites" href="#">Заказать</a>
         </li>
         <li class="product-item">
           <h3 class="product-title">Приложения</h3>
           <img class="product-img" src="img/applications.svg" width="300" height="146" alt="Приложения">
           <p class="product-text">Покорите топ-10 приложений в AppStore и Google Play</p>
-          <a class="button" href="#">Заказать</a>
+          <a class="button button-applications" href="#">Заказать</a>
         </li>
         <li class="product-item">
           <h3 class="product-title">Презентации</h3>
           <img class="product-img" src="img/presentations.svg" width="300" height="146" alt="Презентации">
           <p class="product-text">Вы даже не подозреваете, насколько вы изумительны</p>
-          <a class="button" href="#">Заказать</a>
+          <a class="button button-presentations" href="#">Заказать</a>
         </li>
       </ul>
     </section>
@@ -80,7 +85,7 @@
       <p><b class="about-us-slogan">Мы - маленькая, но гордая дизайн-студия из Краснодара</b></p>
       <p class="about-us-description">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
       <p class="about-us-product-text">Выполняем заказы на разработку:</p>
-      <ul>
+      <ul class="about-us-product-list">
         <li class="about-us-product-item">Веб-сайтов любой сложности</li>
         <li class="about-us-product-item">Мобильных приложений для iOS и Android</li>
         <li class="about-us-product-item">Слайдшоу и видео для корпоративных презентаций</li>
@@ -107,7 +112,7 @@
      <p>191186, Санкт-Петербург,<br> 
      Б. Конюшенная, д. 19/8<br>
      Телефон: +7 (812) 275-75-75</p>
-     <button type="button">Напишите нам</button>
+     <button class="button button-message" type="button">Напишите нам</button>
    </section>
    <section class="footer-socials">
      <h2 class="visually-hidden">Социальные сети</h2>
@@ -122,8 +127,8 @@
         <a href="" aria-label="Инстаграм"><img src="img/inst-icon.svg" alt="Инстаграм"></a>
       </li>
      </ul>
-     <p><b>Давайте дружить, это выгодно!</b></p>
-     <p>Скидка 10% для друзей из социальных сетей</p>
+     <p class="text-social"><b>Давайте дружить, это выгодно!</b></p>
+     <p class="text-sale">Скидка 10% для друзей из социальных сетей</p>
    </section>
  </footer> 
  <section class="text-form">
@@ -148,3 +153,5 @@
  </section>
 </body>
 </html>
+
+ 
