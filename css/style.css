@@ -1,0 +1,225 @@
+
+:root {
+  --basic-black: #000000;  
+  --basic-color-text: #283136;
+  --basic-red: #FB565A;
+  --basic-red-hover: #E74246;
+  --basic-red-active: #D7373B;
+  --basic-green: #00CA74;
+  --basic-green-hover:#00BC6C;
+  --basic-green-active:#00AA62;
+  --basic-yellow: #EFC849;
+  --basic-yellow-hover: #EAB534;
+  --basic-yellow-active: #E5A722;
+  --basic-gray: #888888;
+  --basic-color-gray: #EEEEEE;
+  --basic-color-gray-hover: #DFDFDF;
+  --basic-color-gray-active: #D5D5D5;
+}
+
+body {
+  min-width: 1460px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;  
+  color: var(--basic-black);
+  background-color: var(--basic-gray);
+}
+
+a {
+  text-decoration: none;      
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-navigation {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--basic-black);
+  background-color: var(--basic-color-gray);
+  text-transform: uppercase;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.site-navigation-item,
+.main-pagination-list,
+.pagination-list,
+.product-list,
+.about-us-product-list,
+.social-button,
+.projects-list,
+.filter-top-list,
+.filter-list,
+.filter-left-list {
+  list-style: none;
+}
+
+.site-navigation-item a:not([href]),
+.user-navigation a:not([href]) {
+  background-color: var(--basic-color-gray);
+}
+
+.site-navigation-item a,
+.user-navigation a {
+  color: var(--basic-black);
+  
+}
+
+.site-navigation-item a:hover,
+.user-navigation a:hover {
+  color: var(--basic-red);
+}
+
+.main-header-logo img:active {
+  color: var(--basic-black);
+  opacity: 0.3;
+}
+
+.site-navigation-item a:active,
+.user-navigation a:active {
+  color: var(--basic-black);
+  opacity: 0.3;
+}
+
+.product-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.product-text {
+  color: var(--basic-color-text);
+}
+
+.button {
+  font: inherit;
+  line-height: 18px;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.button-slider,
+.button-web-sites,
+.button-applications,
+.button-presentations,
+.button-projects-price,
+.button-message {
+  color: var(--basic-color-gray);
+}
+
+.button-slider,
+.button-web-sites,
+.button-projects-price,
+.button-message {
+  background-color: var(--basic-red);
+}
+
+.button-applications {
+  background-color: var(--basic-green);
+  
+}
+
+.button-presentations {
+  background-color: var(--basic-yellow);
+}
+
+.button a {
+  color: var(--basic-black);
+  background-color: var(--basic-color-gray);
+}
+ 
+.button-slider:hover,
+.button-web-sites:hover,
+.button-projects-price:hover,
+.button-message:hover {
+  background-color: var(--basic-red-hover);
+}
+
+.button-slider:active,
+.button-web-sites:hover:active,
+.button-projects-price:active,
+.button-message:active {
+  background-color: var(--basic-red-active);
+}
+
+.button-applications:hover {
+  background-color: var(--basic-green-hover);
+  
+}
+
+.button-applications:active {
+  background-color: var(--basic-green-active);
+  
+}
+
+.button-presentations:hover {
+  background-color: var(--basic-yellow-hover);
+}
+
+.button-presentations:active {
+  background-color: var(--basic-yellow-active);
+}
+
+.button-submit:hover,
+.button-pagination-item:hover {
+  background-color: var(--basic-color-gray-hover);
+}
+
+.button-submit:active,
+.button-pagination-item:active {
+  background-color: var(--basic-color-gray-active);
+}
+
+
+.text-social {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.text-sale {
+  font-weight: normal;
+  line-height: 22px;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 55px;
+  background-color: var(--basic-color-gray);
+}
+
+.filter-left-item {
+  font-weight: normal;
+  line-height: 19px;
+  color: var(--basic-color-text); 
+}
+
+.filter-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+
+.text-form {
+  display: none;
+}
+
+
