@@ -1,5 +1,5 @@
 <!Doctype html>
-<html lang="ru">
+<html class="page" lang="ru">
 <head>
   <meta charset="utf-8">
   <title>Студия «Nёrds»</title>
@@ -7,38 +7,42 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="page-body">
   <header class="main-header">
     <nav class="main-navigation">
       <a class="main-header-logo">
         <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип Nёrds">
       </a>
-      <ul class="site-navigation-list">
-        <li class="site-navigation-item"><a href="#">Студия</a></li>
-        <li class="site-navigation-item"><a href="#">Клиенты</a></li>
-        <li class="site-navigation-item"><a href="catalog.html">Магазин</a></li>
-        <li class="site-navigation-item"><a href="#">Контакты</a></li>
-      </ul>
-      <div class="user-navigation">
-        <a class="user-basket" href="#">Корзина</a>
+      <div class="main-navigation-wrapper">
+        <div class="container">
+          <ul class="site-navigation-list">
+            <li class="site-navigation-item"><a href="#">Студия</a></li>
+            <li class="site-navigation-item"><a href="#">Клиенты</a></li>
+            <li class="site-navigation-item"><a href="catalog.html">Магазин</a></li>
+            <li class="site-navigation-item"><a href="#">Контакты</a></li>
+          </ul>
+          <div class="user-navigation">
+            <a class="user-basket" href="#">Корзина</a>
+          </div>
+        </div>
       </div>
     </nav>
   </header>
   <main class="container">
     <h1 class="visually-hidden">Студия Nerds</h1>
     <section class="main-slider">
-      <div class="slider-text">
+      <div class="slider-first">
         <h2 class="visually-hidden">Как мы работаем</h2>
         <p class="slider-title-first">Долго, дорого, скрупулезно.</p>
         <p class="slider-text-first">Математически выверенный дизан для вашего сайта и мобильного приложения</p>
         <a class="button button-slider" href="#">Узнать больше</a>
       </div>
-      <div class="slider-text">
+      <div class="slider-next">
         <p class="slider-title-next">Любим математику как никто другой</p>
         <p class="slider-text-next">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
         <a class="button button-slider" href="#">Узнать больше</a>
       </div>
-      <div class="slider-text">
+      <div class="slider-last">
         <p class="slider-title-last">Только ночь, только хардкор</p>
         <p class="slider-text-last">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
         <a class="button button-slider" href="#">Узнать больше</a>
@@ -102,34 +106,38 @@
     </section>
  </main>
  <footer class="main-footer">
-   <section class="footer-map">
-     <h2 class="visually-hidden">Карта</h2>
-     <img class="footer-map" src="img/map.png" width="1440" height="416" alt="Карта студии Nёrds">
-     <img class="footer-map-mapker" src="img/map-marker.png" alt="Маркер на карте">
-   </section> 
-   <section class="footer-contacts">
-     <h3 class="footer-title">Nёrdc design studio</h3>
-     <p>191186, Санкт-Петербург,<br> 
-     Б. Конюшенная, д. 19/8<br>
-     Телефон: +7 (812) 275-75-75</p>
-     <button class="button button-message" type="button">Напишите нам</button>
-   </section>
-   <section class="footer-socials">
-     <h2 class="visually-hidden">Социальные сети</h2>
-     <ul class="social-button">
-      <li class="social-button-vk">
-        <a href="" aria-label="Вконтакте"><img src="img/vk-icon.svg" alt="Вконтакте"></a>
-      </li>
-      <li class="social-button-fb">
-        <a href="" aria-label="Фейсбук"><img src="img/fb-icon.svg" alt="Фейсбук"></a>
-      </li>
-      <li class="social-button-instagram">
-        <a href="" aria-label="Инстаграм"><img src="img/inst-icon.svg" alt="Инстаграм"></a>
-      </li>
-     </ul>
-     <p class="text-social"><b>Давайте дружить, это выгодно!</b></p>
-     <p class="text-sale">Скидка 10% для друзей из социальных сетей</p>
-   </section>
+   <div class="container">
+     <section class="footer-map">
+       <h2 class="visually-hidden">Карта</h2>
+       <img class="footer-map" src="img/map.png" width="1440" height="416" alt="Карта студии Nёrds">
+       <img class="footer-map-mapker" src="img/map-marker.png" alt="Маркер на карте">
+     </section> 
+     <section class="footer-contacts">
+       <h3 class="footer-title">Nёrdc design studio</h3>
+       <p class="footer-text">191186, Санкт-Петербург,<br> 
+       Б. Конюшенная, д. 19/8<br>
+       Телефон: +7 (812) 275-75-75</p>
+       <button class="button button-message" type="button">Напишите нам</button>
+     </section>
+     <section class="footer-socials">
+       <h2 class="visually-hidden">Социальные сети</h2>
+         <ul class="social-button">
+           <li class="social-button-vk">
+             <a href="" aria-label="Вконтакте"><img src="img/vk-icon.svg" alt="Вконтакте"></a>
+           </li>
+           <li class="social-button-fb">
+             <a href="" aria-label="Фейсбук"><img src="img/fb-icon.svg" alt="Фейсбук"></a>
+           </li>
+           <li class="social-button-instagram">
+             <a href="" aria-label="Инстаграм"><img src="img/inst-icon.svg" alt="Инстаграм"></a>
+           </li>
+         </ul>
+         
+         <p class="text-social"><b>Давайте дружить, это выгодно!</b></p>
+         <p class="text-sale">Скидка 10% для друзей из социальных сетей</p>
+        
+        </section>
+   </div>
  </footer> 
  <section class="text-form">
    <h2 class="visually-hidden">Форма обратной связи</h2>
@@ -153,5 +161,7 @@
  </section>
 </body>
 </html>
+
+ 
 
  
