@@ -279,14 +279,14 @@ img {
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
-  padding-top: 41px;
+  padding-top: 40px;
 }
 
 .about-us-product-list {
   margin: 0;
   padding: 0;
   padding-top: 23px;
-  padding-bottom: 52px;
+  padding-bottom: 50px;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   min-height: 142px;
@@ -353,7 +353,7 @@ sup {
   max-width: 1085px;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 25px;
+  padding-bottom: 24px;
   padding-top: 59px;
 }
 
@@ -394,14 +394,12 @@ sup {
   opacity: 0.1;
 }
 
-.footer-map {
+
+.footer-map .map {
   margin: 0 auto;
+  width: 100%;
   height: 414px;
   position: relative;
-
-}
-
-.footer-map iframe {
   border: none;
 }
 
@@ -409,11 +407,18 @@ sup {
   background-color: var(--basic-white);
   width: 319px;
   min-height: 308px;
-  margin: 0 auto;
+  top: 2624px;
   display: block;
   position: absolute;
-  margin-top: -364px;
-  margin-left: 369px;
+}
+
+.footer-info {
+  background-color: var(--basic-white);
+  width: 319px;
+  min-height: 308px;
+  top: 1896px;
+  display: block;
+  position: absolute;
 }
 
 .footer-title {
@@ -437,22 +442,23 @@ sup {
 }
 
 .tel {
-  padding-left: 51px;
+  margin-left: 51px;
   color: var(--basic-black);
+  line-height: 58px;
 }
 
 .button-message {
-  margin-top: 27px;
+  margin-top: 17px;
   margin-left: 53px;
   padding-top: 14px;
   padding-left: 43px;
   padding-right: 46px;
-  padding-bottom: 10px;
+  padding-bottom: 11px;
 }
 
 .social-networks {
   display: flex;
-  padding-top: 68px;
+  padding-top: 61px;
 }
 
 .social-button {
@@ -504,7 +510,7 @@ sup {
   line-height: 36px;
   margin: 0;
   margin-bottom: 5px;
-  margin-top: 5px;
+  margin-top: 8px;
 }
 
 .visually-hidden:not(:focus):not(:active) {
@@ -586,7 +592,7 @@ sup {
   padding-top: 14px;
   padding-left: 39px;
   padding-right: 40px;
-  padding-bottom: 14px;
+  padding-bottom: 12px;
 }
 
 .button-applications {
@@ -944,7 +950,7 @@ h1 {
 }
 
 .pagination {
-  padding-top: 16px;
+  padding-top: 15px;
   margin-bottom: 60px;
 }
 
